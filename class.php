@@ -1,3 +1,9 @@
+<html>
+<head>
+    <title>Codacy Testing</title>
+</head>
+<body>
+<h2>Codacy Testing</h2>
 <?php
 class Programmer {
     // Class Properties
@@ -39,7 +45,7 @@ class Programmer {
     }
     // Utility data dump function
     function output() {
-        echo "Programmer Name: ".$this->name."<br>";
+        echo '<p>'."Programmer Name: ".$this->name.'</p>'."<br>";
         echo $this->name." has ".$this->experience." years of programming experience.<br>";
         echo $this->lang." is ".$this->name."'s favorite programming language.<br>";
         echo $this->name." holds the degree: ".$this->education."<br><br>";
@@ -52,3 +58,5 @@ $paul->output();
 $paul->set_education('Php core dev');
 $paul->output();
 ?>
+</body>
+</html>
