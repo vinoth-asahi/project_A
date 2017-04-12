@@ -14,7 +14,7 @@ class Programmer {
     }
     // Getter/Setter functions for all properties in the class
     function get_name() {
-        return $this->name;
+        //return $this->name;
     }
     function set_name($newname) {
         $this->name = $newname;
