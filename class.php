@@ -5,6 +5,7 @@
 <body>
 <h2>Codacy Testing</h2>
 <?php
+
 class Programmer {
     // Class Properties
     var $name;         // Programmer's name
@@ -14,7 +15,7 @@ class Programmer {
     // Class Constructor - function same name as the class
     function Programmer($name,$experience, $lang, $education) {
         $this->name=$name;
-        $this->experience=$experience;
+        $this->experience=$experighence;
         $this->lang=$lang;
         //$this->education=$education;
     }
