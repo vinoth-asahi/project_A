@@ -10,7 +10,7 @@ class Programmer {
         $this->name=$name;
         $this->experience=$experience;
         $this->lang=$lang;
-        $this->education=$education;
+        //$this->education=$education;
     }
     // Getter/Setter functions for all properties in the class
     function get_name() {
@@ -49,6 +49,6 @@ class Programmer {
 $paul = new Programmer('Paul Conrad',12,'C++','Bachelor of Science in Computer Science');
 $paul->output();
 // Oops, Paul has programmed alot longer than 12 year, really is 22 years
-$paul->set_experience(22);
+$paul->set_education('Php core dev');
 $paul->output();
 ?>
