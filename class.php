@@ -15,9 +15,9 @@ class Programmer {
     // Class Constructor - function same name as the class
     function Programmer($name,$experience, $lang, $education) {
         $this->name=$name;
-        $this->experience=$experighence;
+        $this->experience=$experience;
         $this->lang=$lang;
-        //$this->education=$education;
+        $this->education=$education;
     }
     // Getter/Setter functions for all properties in the class
     function get_name() {
