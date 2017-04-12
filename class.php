@@ -6,14 +6,14 @@ class Programmer {
     var $lang;         // Favorite Language
     var $education;    // Highest degree earned
     // Class Constructor - function same name as the class
-    function Programmer($name, $experience, $lang, $education) {
+    function Programmer($name,$experience, $lang, $education) {
         $this->name=$name;
         $this->experience=$experience;
         $this->lang=$lang;
         //$this->education=$education;
     }
     // Getter/Setter functions for all properties in the class
-    function get_name() {
+    Function get_name() {
         //return $this->name;
     }
     function set_name($newname) {
@@ -25,7 +25,7 @@ class Programmer {
     function set_experience($newexperience) {
         $this->experience = $newexperience;
     }
-    function get_lang() {
+    Function get_lang() {
         return $this->lang;
     }
     function set_lang($newlang) {
