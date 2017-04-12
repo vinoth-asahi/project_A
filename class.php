@@ -19,7 +19,7 @@ class Programmer {
         //$this->education=$education;
     }
     // Getter/Setter functions for all properties in the class
-    Function get_name() {
+    function get_name() {
         //return $this->name;
     }
     function set_name($newname) {
