@@ -6,7 +6,7 @@
 <h2>Codacy Testing</h2>
 <?php
 
-class Programmer {
+class cfsf {
     // Class Properties
     var $name;         // Programmer's name
     var $experience;   // How long has been programming
@@ -52,6 +52,7 @@ class Programmer {
         echo $this->name." holds the degree: ".$this->education."<br><br>";
     }
 }
+//8c4b839503352cb691eab6bb6b1071122b3c9c3e
 // Instantiating a programmer
 $paul = new Programmer('Paul Conrad',12,'C++','Bachelor of Science in Computer Science');
 $paul->output();
