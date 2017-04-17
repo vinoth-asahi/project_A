@@ -42,7 +42,7 @@ class Programmer {
         return $this->education;
     }
     function set_education($neweducation) {
-        $this->education = $neweducation;
+        //$this->education = $neweducation;
     }
     // Utility data dump function
     function output() {
